@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #000;
+}
+wrapper {
+	height: 100vh;
+	background: #000;
+  
+	/*This part is important for centering*/
+	display: grid;
+	place-items: center;
+  }
+  
+.portrait{
+	font-size: 8px;
+	line-height: 10px;
+	background: url(Star_Lord.jpg)  fixed center no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	/* This part is important for the feature itself */
+	.portrait{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgba(255,255,255,.1);
+}
+}
